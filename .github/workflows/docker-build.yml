@@ -10,8 +10,6 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: dotnet-app
-  DOCKERFILE_PATH: Q4/Dockerfile
-  CONTEXT_PATH: Q4
 
 jobs:
   build-and-push:
@@ -29,7 +27,7 @@ jobs:
         uses: aquasecurity/trivy-action@master
         with:
           scan-type: 'fs'
-          scan-ref: '${{ env.CONTEXT_PATH }}'
+          scan-ref: 'Q4'
           format: 'sarif'
           output: 'trivy-results.sarif'
 
@@ -57,11 +55,12 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: ${{ env.CONTEXT_PATH }}
-          file: ${{ env.DOCKERFILE_PATH }}
+          context: Q4
+          file: Q4/Dockerfile
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
           platforms: linux/amd64,linux/arm64
+          load: true

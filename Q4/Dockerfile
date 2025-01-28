@@ -1,9 +1,9 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0-alpine AS build
 WORKDIR /src
 
-COPY Q4/*.sln .
-COPY Q4/ConsoleApp/*.csproj ConsoleApp/
-COPY Q4/Tests/*.csproj Tests/
+COPY *.sln .
+COPY ConsoleApp/*.csproj ConsoleApp/
+COPY Tests/*.csproj Tests/
 
 RUN dotnet restore
 
