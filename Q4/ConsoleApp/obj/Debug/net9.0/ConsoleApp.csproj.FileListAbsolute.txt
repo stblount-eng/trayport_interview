@@ -1,0 +1,15 @@
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\bin\Debug\net9.0\ConsoleApp.exe
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\bin\Debug\net9.0\ConsoleApp.deps.json
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\bin\Debug\net9.0\ConsoleApp.runtimeconfig.json
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\bin\Debug\net9.0\ConsoleApp.dll
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\bin\Debug\net9.0\ConsoleApp.pdb
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\obj\Debug\net9.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\obj\Debug\net9.0\ConsoleApp.sourcelink.json
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\obj\Debug\net9.0\ConsoleApp.dll
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\obj\Debug\net9.0\refint\ConsoleApp.dll
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\obj\Debug\net9.0\ConsoleApp.pdb
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\Tom\Documents\Coding\trayport_interview\Q4\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll
